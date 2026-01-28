@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Jornada do estudante - João Victor</title>
+        <meta name="description" content="Diario onde mostro minha evolução como um estudante e programador">
+        <meta name="author" content="João Victor">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Jornada estudante :</h1>
+
+            <p style="color: rgb(39, 39, 39); font-size: larger;">Um programador em <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> que quer lhe ensinar a programar.</p>
+        </header>
+        <main>
+            <section class="sobre">
+                <h2>Jornada :</h2>
+
+                <p><strong>Primeiros dias :</strong> nos primeiros dias voce vai aprender <em>tags</em> e caminhar ate o seu obijetivo <br> <em>criar seus primeiros sites .</em></p>
+            </section>
+
+            <section class="conhecimentos">
+                <h2>Teste seus conhecimentos :</h2>
+
+                <p><strong>Pergunta 1: </strong>Quais <em>linguagems</em> são usadas na criação de um site ?</p>
+
+                <form>
+                    <!--Variadas respostas-->
+                    <input type="radio" value="python" id="p1a" name="Pergunta1">
+                    <label for="p1a">Python</label>
+                    <br>
+                    <input type="radio" value="Java" id="p1b" name="Pergunta1">
+                    <label for="p1b">Java</label>
+                    <br>
+                    <input type="radio" value="HTML" id="p1c" name="Pergunta1">
+                    <label for="p1c">HTML</label>
+                </form>
+
+                <p><strong>Pergunta 2: </strong>Qual linguagem o computador entende ?</p>
+                <form>
+                    <!--Resposta em texto-->
+                    <input type="text" id="p2" name="pergunta2" placeholder="Escreva aqui.">
+                </form>
+
+                <p><strong>Pergunta 3: </strong>Escreva um exemplo de senha forte.</p>
+                <form>
+                    <!--Resposta em senha-->
+                    <input type="password" id="p3" name="pergunta3" placeholder="Digite sua senha...">
+                </form>
+
+                <p><strong>Pergunta 4: </strong>Em que ano o HTML lançou sua primeira versão ?</p>
+                <form>
+                    <!--Data-->
+                    <input type="date" id="p4" name="pergunta4">
+                </form>
+
+                <p><strong>Pergunta 5: </strong>Quais destas tecnologias são consideradas linguagens de programação ?</p>
+                <form>
+                    <!--Seleção multipla-->
+                    <input type="checkbox" id="p5a" value="Html" name="pergunta5">
+                    <label for="p5a">Html</label>
+                    <br>
+                    <input type="checkbox" id="p5b" value="Java" name="pergunta5">
+                    <label for="p5b">Java</label>
+                    <br>
+                    <input type="checkbox" id="p5c" value="CSS" name="pergunta5">
+                    <label for="p5c">CSS</label>
+                    <br>
+                    <input type="checkbox" id="p5d" value="JavaScript" name="pergunta5">
+                    <label for="p5d">JavaScript</label>
+                </form>
+
+                <p><strong>Pergunta 6: </strong>Faça um upload de um arquivo html.</p>
+                <form>
+                    <!--Upload-->
+                    <input type="file" id="p6" name="pergunta6">
+                </form>
+
+                <p><strong>Pergunta 7: </strong> Escolha qual das empresas a seguir é a mais famosa ?</p>
+                <form>
+                    <!--menu suspenso-->
+                    <select name="pergunta7" id="p7">
+                        <option value="youtube">Youtube</option>
+                        <option value="google">Google</option>
+                        <option value="tesla">Tesla</option>
+                    </select>
+                </form>
+
+                <p><strong>Pergunta 8: </strong>Qual linguagen tem como logotipo o logotipo abaixo ?</p>
+                <form>
+                    <!--Imagem-->
+                    <figure>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4LrxvqnbfQL8yl29NpqXn2SrKCC-9vXhqkQ&s" alt="Python">
+                        <figcaption>Imagem 1: de uma linguagem de programação</figcaption>
+                    </figure>
+                    <br>
+                    <input type="radio" id="p8a" name="pergunta8" value="Java">
+                    <label for="p8a">Java</label>
+                    <br>
+                    <input type="radio" id="p8b" name="pergunta8" value="React">
+                    <label for="p8b">React</label>
+                    <br>
+                    <input type="radio" id="p8c" name="pergunta8" value="Phyton">
+                    <label for="p8c">Python</label>
+                </form>
+                <br>
+            </section>
+
+            <section class="lista_de_pontos">
+                <h2>Verifique suas respostas!</h2>
+                
+                <details>
+                    <summary>Clique aqui e veja as respostas</summary>
+                    <ol>
+                        <li><strong>Resposta da 1: </strong>HTML, linguagem de marcação.</li>
+                        <li><strong>Resposta da 2: </strong>0 e 1.</li>
+                        <li><strong>Resposta da 3: </strong>Uma senha que contenha numeros e letras exemplo(paodequeijo@001239)</li>
+                        <li><strong>Resposta da 4: </strong>1991.</li>
+                        <li><strong>Resposta da 5: </strong>Java e JavaScript.</li>
+                        <li><strong>Resposta da 6: </strong>.html .</li>
+                        <li><strong>Resposta da 7: </strong>Google.</li>
+                        <li><strong>Resposta da 8: </strong>Python.</li>
+                    </ol>
+                </details>
+            </section>
+
+            <section class="tabela">
+                <h2>Tabela de pontuação :</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Avaliação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0-2</td>
+                            <td>Não desista! Você e mais inteligente do que pensa !</td>
+                        </tr>
+                        <tr>
+                            <td>2-4</td>
+                            <td>um pouco melhor mas tem muito a aprender</td>
+                        </tr>
+                        <tr>
+                            <td>4-6</td>
+                            <td>bom! seu conhecimento e medio</td>
+                        </tr>
+                        <tr>
+                            <td>6-8</td>
+                            <td>perferto! vc sabe muito ! parabéns</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Boa sorte na proxima ! estude mais para melhorar !</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <section class="formulario">
+                <h2>Formulario de feedback</h2>
+                <fieldset>
+                    <legend>Comente oque você achou !</legend>
+                    <form>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" placeholder="Digite seu nome..."><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email..."><br>
+                        <label for="coments">Comentarios:</label><br>
+                        <textarea name="coments" id="coments" rows="4" cols="50" placeholder="Digite seu comentario"></textarea><br>
+                        <button onclick="alert('FEEDBACK ENVIADO')">Envie seu feedback!</button>
+                    </form>
+                </fieldset>
+            </section>
+        </main>
+        <footer>
+            <p>&copy Jornada Estudante. Todos os direitos reservados</p>
+            <p>Para conheçer mais sites como esse <a href="#">Clique Aqui</a></p>
+        </footer>
+    </body>
+</html>

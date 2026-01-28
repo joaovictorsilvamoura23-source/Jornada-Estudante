@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(236, 255, 255);
+    font-family: "Oswald", sans-serif;
+}
+
+header{
+    padding: 2rem;
+    background-color: rgb(235, 233, 233);
+    text-align: center;
+}
+
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+h1{
+    color: rgb(27, 27, 27);
+    font-size: 50px;
+}
+
+p, label{
+    color: rgb(14, 13, 13);
+    font-size: 19px ;
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgb(14, 13, 13);
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    background-color: rgb(207, 207, 207);
+    color: rgb(14, 13, 13);
+    font-family: "Oswald", sans-serif;
+}
+
+td {
+    background-color: rgb(255, 238, 217);
+}
+
+details{
+    background-color: rgb(250, 240, 227);
+    padding: 0.2rem;
+}
+
+li {
+    padding: 0.1rem;
+    margin-left: 1rem;
+}
+
+form [type="radio"], form [type="checkbox"]{
+    accent-color: rgb(27, 27, 51);
+    background-color: rgb(255, 248, 238);
+}
+
+form [type="text"], form [type="password"], textarea, form [type="email"]{
+    width: 25%;
+    padding: 0.2rem;
+    border: 2px solid rgb(16, 16, 29);
+    border-radius: 5px;
+}
+
+form [type="date"]{
+    width: 10%;
+    padding: 0.2rem;
+    border: 2px solid rgb(16, 16, 29);
+    border-radius: 5px;
+}
+
+ form [type="file"]::file-selector-button{
+    border: 2px solid rgb(16, 16, 29);
+    border-radius: 5px;
+    background-color: rgb(236, 234, 234)
+ }
+
+fieldset button{
+    border: 2px solid rgb(16, 16, 29);
+    background-color: rgb(231, 231, 231);
+    color: rgb(14, 13, 13);
+    font-family: "Oswald", sans-serif;
+    padding: 0.2rem;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+fieldset button:hover{
+    transition: 0.3s;
+    background-color: rgb(206, 205, 205);
+    width: 115px;
+    height: 35px;
+    cursor: pointer;
+}
+
+fieldset, fieldset legend{
+    border: 1px solid rgb(16, 16, 29);
+    padding: 0.2rem;
+}
+
+select, select option{
+    width: 7%;
+    padding: 0.2rem;
+    border: 2px solid rgb(16, 16, 29);
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(235, 233, 233);
+}
+
+form{
+    background-color: whitesmoke;
+}
